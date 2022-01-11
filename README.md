@@ -4,9 +4,9 @@
 
 
 <H3 align="center">Objective</H3>
-To help people get started with coding as a daily habit. Aim is to stay consistent with No-Zero-Days and work towards our goals, one small effort at a time! 
-
-<br>
+To help people get started with coding as a daily habit. Aim is to stay consistent with No-Zero-Days and work towards our goals, one small effort at a time!
+ 
+</br>
 
 <div align="center"> 
 
