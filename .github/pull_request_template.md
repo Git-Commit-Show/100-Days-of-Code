@@ -3,6 +3,8 @@
 Thanks for your participation in 100 days of code. These 100 days of coding will help you get a nice understanding with hands on approach towards solving problems. Stay determined, stay motivated and happy coding :)
 
 ## 📝Please make sure to follow these points
+<!-- to mark a point done, place an x in square brackets. eg [x]-->
+<!-- - [x] done with this task-->
 - [ ] Created a separate folder with your name. eg <code>brahmajeet</code>
 - [ ] Made daily solution file of problem in format. eg <code>DAY-1.py</code>
 - [ ] I have uploaded my own solution.
