@@ -100,4 +100,4 @@ Happy Learning!
 
 
 ---
-_Maintainers_ : [Saurabh](https://github.com/srbhr), [Himanshu](https://github.com/himanshu007-creator) , [Mahi](https://github.com/mahimonga), [Soham](https://github.com/soham117) 
+_Maintainers_ : [Saurabh](https://github.com/srbhr), [Himanshu](https://github.com/himanshu007-creator) ,[Soham](https://github.com/soham117) 
