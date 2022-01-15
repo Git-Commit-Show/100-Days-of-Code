@@ -33,7 +33,7 @@ To help people get started with coding as a daily habit. Aim is to stay consiste
 
     b. Push all the code into your main directory (The one you created with your username). 
 
-    Do any of the 3(a) or 3(b)!
+    Do any of the 4(a) or 4(b)!
 5. Make a Pull Request to that branch! We'd be happy to merge your daily progress 😄!
 6. If you want to make changes to this README.md file and enhance it, you can do that as well. Just Mark it for review to any of the maintainers. (see end of this file for who they are!)
 
