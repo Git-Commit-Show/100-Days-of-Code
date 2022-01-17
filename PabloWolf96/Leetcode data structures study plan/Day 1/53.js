@@ -1,5 +1,5 @@
-// leetcode problem 53 maxSumimum subarray
-var maxSumSubArray = function (nums) {
+// leetcode problem 53 maximum subarray
+var maxSubArray = function (nums) {
   let maxSum;
   let currentSum;
 
