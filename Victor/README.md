@@ -8,5 +8,6 @@ Neural network to classify images into two types. With this data it is classifie
 ### Day 2
 Added to the Day 1 code the functionality of test it with a picture
 
-
-
+### Coded some Activation Functions
+Coded the next functions :
+Sigmoid, RELU, LeakyRElU, Tanh, Parametric RELU, 
