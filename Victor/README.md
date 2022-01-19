@@ -1,6 +1,6 @@
 <H1 align="center"> 100 DAYS OF CODE </H1>
 
-[![Banner](Assets/100daysOfCode.png)](https://discord.gg/JFWP8c2gPG)
+[![Banner](/./Assets/100daysOfCode.png)](https://discord.gg/JFWP8c2gPG)
 
 # My progress  in 100 Days of code Challenge
 [My profile](https://github.com/Victor1Ja)
