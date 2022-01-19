@@ -13,9 +13,9 @@ Day    | Codes
 ------ | ------
 1      | Count Digits, Fibbonacci Till N, Kadane Algorithm
 2      | Closest Pair Sum, KRotate
-3      | Bubble Sort 
-4      | Selection Sort
-5      | Insertion Sort
+3      | Selection Sort
+4      | Insertion Sort
+5      | Bubble Sort 
 6      | 
 7      | 
 
