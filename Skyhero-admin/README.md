@@ -6,3 +6,9 @@
 
 ## Day 2
 - Solved the [Reverse Integer](https://leetcode.com/problems/reverse-integer/) problem on leetcode.
+
+## Day 3
+- Tried to use different OCR libraries in python, but the only one that I was able to run was **EasyOCR** 😅
+
+## Day 4
+- Solved the [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) problem on leetcode.
