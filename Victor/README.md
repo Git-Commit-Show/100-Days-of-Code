@@ -18,3 +18,6 @@ Sigmoid, RELU, LeakyRElU, Tanh, Parametric RELU,
 
 ### Day 4
 The beginning of a Neural Network with one hidden layer
+
+### Day 5
+End of Neural Network of the previous day 
