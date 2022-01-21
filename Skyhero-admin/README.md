@@ -12,3 +12,6 @@
 
 ## Day 4
 - Solved the [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) problem on leetcode.
+
+## Day 5
+- Started a python course and also tried the [Turtle](https://docs.python.org/3/library/turtle.html) library.
