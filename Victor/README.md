@@ -21,3 +21,6 @@ The beginning of a Neural Network with one hidden layer
 
 ### Day 5
 End of Neural Network of the previous day 
+
+### Day 6 
+Tuning of day 5 AI and added more data set to the notebook. [Full code here](https://github.com/Victor1Ja/redes_neuronales)
