@@ -15,3 +15,6 @@
 
 ## Day 5
 - Started a python course and also tried the [Turtle](https://docs.python.org/3/library/turtle.html) library.
+
+## Day 6
+- Made a simple python GUI application for adding information in excel sheets and help making reports for my Dad's work. [Sky-excel](https://github.com/Skyhero-admin/Sky-excel)
