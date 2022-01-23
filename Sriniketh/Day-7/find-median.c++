@@ -41,7 +41,6 @@ int main() {
     }
     
     bubbleSort(a, n);
-    // }
 
     float ans = findMedian(a, n);
     cout << ans;
