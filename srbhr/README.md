@@ -23,9 +23,9 @@ Day    | Codes
 _22 Jan - 28 Jan_
 Day     | Codes
 ------  | ------
-8       | 
-9       | 
-10      |  
+8       | Merge Two Sorted Arrays
+9       | Merge Sort
+10      | Quick Sort
 11      | 
 12      | 
 13      | 
