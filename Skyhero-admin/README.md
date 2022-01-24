@@ -21,3 +21,6 @@
 
 ## Day 7
 - Solved many pattern problems in python.
+
+## Day 8
+-Solved the [Binary Search](https://leetcode.com/problems/binary-search/) problem on leetcode.
