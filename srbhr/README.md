@@ -16,8 +16,8 @@ Day    | Codes
 3      | Selection Sort
 4      | Insertion Sort
 5      | Bubble Sort 
-6      | 
-7      | 
+6      | Order Not Known Search
+7      | Reverse Array
 
 ### **Week 2 Updates**  
 _22 Jan - 28 Jan_
