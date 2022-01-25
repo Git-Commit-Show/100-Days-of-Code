@@ -16,16 +16,16 @@ Day    | Codes
 3      | Selection Sort
 4      | Insertion Sort
 5      | Bubble Sort 
-6      | 
-7      | 
+6      | Order Not Known Search
+7      | Reverse Array
 
 ### **Week 2 Updates**  
 _22 Jan - 28 Jan_
 Day     | Codes
 ------  | ------
-8       | 
-9       | 
-10      |  
+8       | Merge Two Sorted Arrays
+9       | Merge Sort
+10      | Quick Sort
 11      | 
 12      | 
 13      | 

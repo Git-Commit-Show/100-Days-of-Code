@@ -1,29 +1,23 @@
 // leetcode problem 203 remove linked list element
 
-var removeElements = function(head, val) {
-    if (head == null) {
-      return head;
+var removeElements = function (head, val) {
+  while (head && head.val === val) {
+    head = head.next;
+  }
+
+  let prev = head;
+  let current;
+  if (prev) {
+    current = prev.next;
+  }
+  while (current) {
+    if (current.val === val) {
+      prev.next = current.next;
+    } else {
+      prev = current;
     }
-    
-    // Check the head.val first
-    while (head != null && head.val === val) {
-      head = head.next;
-    }
-    
-    let curr = head;
-    
-    // Head maybe deleted, check if it's null
-    if (curr != null) {
-      // Head is for sure has different value, check the next node
-      while (curr.next != null) {
-        if (curr.next.val === val) {
-          curr.next = curr.next.next;
-        }
-        else {
-          curr = curr.next;
-        }
-      }
-    }
-    
-    return head;
-  };
+    current = prev.next;
+  }
+
+  return head;
+};
