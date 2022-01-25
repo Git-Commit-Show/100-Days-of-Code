@@ -18,3 +18,9 @@
 
 ## Day 6
 - Made a simple python GUI application for adding information in excel sheets and help making reports for my Dad's work. [Sky-excel](https://github.com/Skyhero-admin/Sky-excel)
+
+## Day 7
+- Solved many pattern problems in python.
+
+## Day 8
+-Solved the [Binary Search](https://leetcode.com/problems/binary-search/) problem on leetcode.
