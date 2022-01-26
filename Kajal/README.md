@@ -43,7 +43,7 @@ I will be following 100 days of code by daily pushing code in this repo.
 
 ## Day 7
 
-> Q1 : [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) 
+> Q1 : [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) done
 >
 > Q2 : [Reorder List](https://leetcode.com/problems/reorder-list/) done
 > 
