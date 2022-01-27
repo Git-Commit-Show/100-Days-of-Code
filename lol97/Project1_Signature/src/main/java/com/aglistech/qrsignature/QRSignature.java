@@ -1,4 +1,4 @@
-package com.aglistech.signature;
+package com.aglistech.qrsignature;
 
 import com.aglistech.qrsignature.controllers.UserController;
 
