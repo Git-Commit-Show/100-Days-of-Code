@@ -27,3 +27,6 @@
 
 ## Day 9
 - Made many patterns in python using Turtle library.
+
+## Day 10
+- Made more python Turtle programs today 😄.
