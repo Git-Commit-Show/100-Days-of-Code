@@ -24,3 +24,6 @@
 
 ## Day 8
 -Solved the [Binary Search](https://leetcode.com/problems/binary-search/) problem on leetcode.
+
+## Day 9
+- Made many patterns in python using Turtle library.
