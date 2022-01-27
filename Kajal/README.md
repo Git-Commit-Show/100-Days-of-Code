@@ -43,13 +43,13 @@ I will be following 100 days of code by daily pushing code in this repo.
 
 ## Day 7
 
-> Q1 : [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) 
+> Q1 : [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) done
 >
-> Q2 : [Reorder List](https://leetcode.com/problems/reorder-list/)
+> Q2 : [Reorder List](https://leetcode.com/problems/reorder-list/) done
 > 
-> Q3 : [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)
+> Q3 : [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) using aage k concepts
 > 
-> Q4 : [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)
+> Q4 : [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/) using aage k concepts
 > 
 
 ## Day 8
