@@ -61,7 +61,9 @@ I will be following 100 days of code by daily pushing code in this repo.
 > Q3 : [Find first node of loop in a linked list](https://www.geeksforgeeks.org/find-first-node-of-loop-in-a-linked-list/)
 > 
 > Q4 : [Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
->
+> 
+> Q5 : [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) done
+> 
 
 ## Day 9
 
