@@ -1,20 +1,28 @@
 package com.aglistech.qrsignature;
 
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+
+import com.aglistech.qrsignature.daoImp.UserDaoImp;
+import com.aglistech.qrsignature.model.User;
+
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 import java.awt.event.ActionListener;
+import java.sql.SQLException;
 import java.awt.event.ActionEvent;
 import javax.swing.JPasswordField;
 
 public class MainFrame extends JFrame {
-
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JTextField userIdTextField;
 	private JPasswordField passwordField;
@@ -49,8 +57,22 @@ public class MainFrame extends JFrame {
 		JButton btnLogin = new JButton("Login");
 		btnLogin.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				ImageDisplay display = new ImageDisplay();
-				display.showQR(userIdTextField.getText());
+				try {
+					UserDaoImp userDaoImp = new UserDaoImp();
+					int id = Integer.valueOf(userIdTextField.getText().toString());
+					String key = passwordField.getText();
+					
+					User user = userDaoImp.getUser(id);
+					if (userDaoImp.checkPassword(user, key)) {						
+						ImageDisplay display = new ImageDisplay();
+						display.showQR(key);
+					}
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
+				
 			}
 		});
 		btnLogin.setBounds(74, 190, 151, 31);
