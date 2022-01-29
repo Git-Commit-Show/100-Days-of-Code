@@ -27,3 +27,10 @@
 
 ## Day 9
 - Made many patterns in python using Turtle library.
+
+## Day 10
+- Made more python Turtle programs today 😄.
+
+## Day 11
+- Solved the [Conatains Duplicate](https://leetcode.com/problems/contains-duplicate/) problem on leetcode.
+- Solved the [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) problem on leetcode.
