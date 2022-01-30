@@ -64,8 +64,8 @@ public class MainFrame extends JFrame {
 					
 					User user = userDaoImp.getUser(id);
 					if (userDaoImp.checkPassword(user, key)) {						
-						ImageDisplay display = new ImageDisplay();
-						display.showQR(key);
+						MessageFrame messageFrame = new MessageFrame(user);
+						messageFrame.showWindow(user);
 					}
 				} catch (SQLException e) {
 					// TODO Auto-generated catch block
