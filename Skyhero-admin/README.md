@@ -34,3 +34,15 @@
 ## Day 11
 - Solved the [Conatains Duplicate](https://leetcode.com/problems/contains-duplicate/) problem on leetcode.
 - Solved the [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) problem on leetcode.
+
+## Day 12
+- Solved the [First Bad Version](https://leetcode.com/problems/first-bad-version/) problem on leetcode.
+-Solved the [Search Insert Position](https://leetcode.com/problems/search-insert-position/) problem on leetcode.
+
+## Day 13
+- Solved the [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) problem on leetcode.
+- Solved the [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) problem on leetcode.
+
+## Day 14
+- Solved [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) problem on leetcode.
+- Solved the [Rotate Array](https://leetcode.com/problems/rotate-array/) problem on leetcode.
