@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+}
+
+.greenclass {
+    border: 1px solid green;
+    color: green;
+    width: 200px;
+    background-color: white;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 200;
+    margin-left: 140px;
+}
+
+.yellowclass {
+    border: 1px solid whitesmoke;
+    color: black;
+    width: 200px;
+    background-color: yellowgreen;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 200;
+    margin-left: 120px;
+}
+
+.redclass {
+    border: 1px solid whitesmoke;
+    color: black;
+    width: 250px;
+    background-color: red;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 200;
+    margin-left: 120px;
+}
+
+#container {
+    margin: auto;
+    display: block;
+    color: white;
+}
+
+#container h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+#container h2 {
+    text-align: center;
+    color: grey;
+}
+
+#container p {
+    font-size: 16px;
+}
+
+#app {
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+input{
+    width: 50%;
+    height: 30px;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 180px;
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    color: honeydew;
+}

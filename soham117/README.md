@@ -1,1 +1,1 @@
-# Day 0 of #100daysofCode
+# Daily progress of #100daysofCode
