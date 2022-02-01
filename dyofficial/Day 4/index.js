@@ -2,7 +2,7 @@ function solve(meal_cost, tip_percent, tax_percent) {
   // Write your code here
 
   const final = meal_cost + (meal_cost / 100) * tip_percent + (meal_cost / 100) * tax_percent;
-  const finalAmount = Math.floor(final);
+  const finalAmount = Math.round(final);
   console.log(finalAmount);
 }
 
