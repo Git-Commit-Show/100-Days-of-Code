@@ -1,12 +1,24 @@
 #include <iostream>
 using namespace std;
 
-struct Node{
-  int data;
-  struct Node *next;
-}*top=NULL;
+class Node{
+  public:
+    int data;
+    Node *next;
+};
 
-void push(int x){
+class Stack{
+  private:
+    Node *top;
+
+  public:
+    Stack(){top=NULL;}
+    void push(int x);
+    int pop();
+    void Display();
+};
+
+void Stack::push(int x){
   struct Node *t;
   t=new Node;
   if(t==NULL){
@@ -18,7 +30,7 @@ void push(int x){
   }
 }
 
-int pop(){
+int Stack::pop(){
   struct Node *t;
   int x=-1;
   if(top==NULL){
@@ -33,7 +45,7 @@ int pop(){
   return x;
 }
 
-void Display(){
+void Stack::Display(){
   struct Node *t;
   t=top;
   while(t){
@@ -44,19 +56,14 @@ void Display(){
 }
 
 int main() {
-  cout<<"Pushing the elements into the stack........ "<<endl<<endl;
-  push(40);
-  push(50);
-  push(60);
-  push(70);
-  push(80);
+  Stack stk;
+  cout<<"Pushing the elements into the stack........"<<endl<<endl;
+  stk.push(40);
+  stk.push(50);
+  stk.push(60);
+  stk.push(70);
+  stk.push(80);
   cout<<"Displaying the elements: "<<endl;
-  Display();
-  cout<<"Popping the elements: "<<endl;
-  cout<<pop();
-  cout<<endl;
-  cout<<pop();
-  cout<<endl;
-  cout<<"Displaying the elements after popping: "<<endl;
-  Display();
+  stk.Display();
+  
 }
