@@ -1,5 +1,5 @@
 // leetcode problem 48 rotate image
-function rotate(matrix: number[][]): void {
+function rotate(matrix) {
   let lastIndex = matrix.length - 1;
   for (let i = 0; i < Math.floor(matrix.length / 2); i++) {
     for (let j = i; j < lastIndex - i; j++) {
