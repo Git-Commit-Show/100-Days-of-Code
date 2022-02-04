@@ -37,7 +37,7 @@
 
 ## Day 12
 - Solved the [First Bad Version](https://leetcode.com/problems/first-bad-version/) problem on leetcode.
--Solved the [Search Insert Position](https://leetcode.com/problems/search-insert-position/) problem on leetcode.
+- Solved the [Search Insert Position](https://leetcode.com/problems/search-insert-position/) problem on leetcode.
 
 ## Day 13
 - Solved the [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) problem on leetcode.
@@ -46,3 +46,14 @@
 ## Day 14
 - Solved [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) problem on leetcode.
 - Solved the [Rotate Array](https://leetcode.com/problems/rotate-array/) problem on leetcode.
+
+## Day 15
+- Solved [Move Zeroes](https://leetcode.com/problems/move-zeroes) problem on leetcode.
+- Solved [Find XOR Sum of All Pairs Bitwise AND](https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and) problem on leetcode.
+- Solved [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) problem on leetcode.
+
+## Day 16
+- Solved [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square) problem on leetcode.
+- Solved [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) problem on leetcode.
+- Solved [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) problem on leetcode.
+- Started learning about Blockchain and solidity, wrote my first solidity contract.
