@@ -68,8 +68,8 @@
 
 ## Day 19
 - Made a basic solidity contract using which an ethereum address can deposit and withdraw some ethereum in the contract, similar to a bank :)
-- Did some python list programs
+- Did some python **list** programs
 
 ## Day 20
-- Did some python strings program.
+- Did some python **strings** program.
 - Started working on a nft auction contract in solidity.
