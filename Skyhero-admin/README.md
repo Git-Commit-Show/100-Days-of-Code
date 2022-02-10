@@ -57,3 +57,19 @@
 - Solved [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) problem on leetcode.
 - Solved [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) problem on leetcode.
 - Started learning about Blockchain and solidity, wrote my first solidity contract.
+
+## Day 17
+- Solved [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) problem in leetcode.
+- Solved [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) problem on leetcode.
+
+## Day 18
+- Solved [Reverse String](https://leetcode.com/problems/reverse-string/) problem on leetcode.
+- Made another solidity contract and learned about global keywords.
+
+## Day 19
+- Made a basic solidity contract using which an ethereum address can deposit and withdraw some ethereum in the contract, similar to a bank :)
+- Did some python list programs
+
+## Day 20
+- Did some python strings program.
+- Started working on a nft auction contract in solidity.
