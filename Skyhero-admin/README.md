@@ -73,3 +73,6 @@
 ## Day 20
 - Did some python **strings** program.
 - Started working on a nft auction contract in solidity.
+
+## Day 21
+- Implemented singly linked list in java.
