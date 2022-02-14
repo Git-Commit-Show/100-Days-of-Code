@@ -40,7 +40,7 @@ _29 Jan - 3 Feb_
 Day     | Codes
 ------  | ------
 15      |  Two Sum
-16      | 
+16      |  Merge Two Arrays
 17      | 
 18      | 
 19      | 
@@ -60,3 +60,6 @@ Day     | Codes
 19      | 
 20      |
 21      |
+
+
+### **Week 5 Updates**
