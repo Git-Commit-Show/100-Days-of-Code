@@ -76,3 +76,9 @@
 
 ## Day 21
 - Implemented singly linked list in java.
+
+## Day 22
+- Made an ecryption and decryption application in python using Caeser cipher.
+
+## Day 23
+- Implemented the FLAMES game in python.
