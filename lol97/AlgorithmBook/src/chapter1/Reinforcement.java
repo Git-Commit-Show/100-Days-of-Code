@@ -12,6 +12,8 @@ public class Reinforcement {
 		System.out.println("3. R.1.3 isMultiple");
 		System.out.println("4. R.1.4 isEven");
 		System.out.println("5. R.1.5 sumUntil");
+		System.out.println("6. R.1.6 sumOddUntil");
+		System.out.println("7. R.1.7 sumSquareUntil");
 		System.out.println("==========================");
 	}
 	
@@ -29,6 +31,7 @@ public class Reinforcement {
 	
 	private static void runMenu(int menu) {
 		Scanner input = new Scanner(System.in);
+		int numberInput;
 		switch (menu) {
 		case 1:
 			inputAllBaseTypes();
@@ -52,6 +55,16 @@ public class Reinforcement {
 			System.out.println("sum until : ");
 			int until = input.nextInt();
 			System.out.printf("total sum until %d is %d %n", until, sumUntil(until));
+			break;
+		case 6:
+			System.out.println("sum odd until : ");
+			int untilOdd = input.nextInt();
+			System.out.printf("total sum odd until %d is %d %n", untilOdd, sumOddUntil(untilOdd));
+			break;
+		case 7:
+			System.out.println("sum odd until : ");
+			numberInput = input.nextInt();
+			System.out.printf("total sum square until %d is %d %n", numberInput, sumSquareUntil(numberInput));
 			break;
 		default:
 			System.out.println("menu not found");
@@ -119,6 +132,27 @@ public class Reinforcement {
 	private static int sumUntil(int n) {
 		int sum = 0;
 		for(int i=1; i<=n; i++) {
+			sum += i;
+		}
+		return sum;
+	}
+	
+	private static int sumOddUntil(int n) {
+		int sum = 0;
+		for(int i=1; i<=n; i+=2) {
+			sum += i;
+		}
+		return sum;
+	}
+	
+	private static int sumSquareUntil(int n) {
+		if (n == 1) {
+			return 1;
+		} else if (n < 1) {
+			return n;
+		}
+		int sum = 0;
+		for(int i=2; i<=n; i = i*i) {
 			sum += i;
 		}
 		return sum;
