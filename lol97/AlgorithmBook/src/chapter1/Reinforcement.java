@@ -10,6 +10,8 @@ public class Reinforcement {
 		System.out.println("1. R.1.1 InputAllBaseType");
 		System.out.println("2. R.1.2 GameEntry");
 		System.out.println("3. R.1.3 isMultiple");
+		System.out.println("4. R.1.4 isEven");
+		System.out.println("5. R.1.5 sumUntil");
 		System.out.println("==========================");
 	}
 	
@@ -26,6 +28,7 @@ public class Reinforcement {
 	}
 	
 	private static void runMenu(int menu) {
+		Scanner input = new Scanner(System.in);
 		switch (menu) {
 		case 1:
 			inputAllBaseTypes();
@@ -34,12 +37,21 @@ public class Reinforcement {
 			listGameEntry();
 			break;
 		case 3:
-			Scanner input = new Scanner(System.in);
 			System.out.println("value m : ");
 			long m = input.nextLong();
 			System.out.println("value n : ");
 			long n = input.nextLong();
 			System.out.println("is n Multiple of m : " + isMultiple(m, n));
+			break;
+		case 4:
+			System.out.println("check number value : ");
+			int number = input.nextInt();
+			System.out.printf("is number %d : %B %n", number, isEvenNumber(number));
+			break;
+		case 5:
+			System.out.println("sum until : ");
+			int until = input.nextInt();
+			System.out.printf("total sum until %d is %d %n", until, sumUntil(until));
 			break;
 		default:
 			System.out.println("menu not found");
@@ -90,6 +102,26 @@ public class Reinforcement {
 		} else {
 			return n % m == 0;
 		}
+	}
+	
+	private static boolean isEvenNumber(int number) {
+		while(number>-2) {
+			number -= 2;
+			if (number == 0) {
+				return true;
+			} else if (number == -1) {
+				return false;
+			}
+		}
+		return false;
+	}
+	
+	private static int sumUntil(int n) {
+		int sum = 0;
+		for(int i=1; i<=n; i++) {
+			sum += i;
+		}
+		return sum;
 	}
 
 }
