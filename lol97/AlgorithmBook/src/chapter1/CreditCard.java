@@ -56,7 +56,9 @@ public class CreditCard {
 	}
 	
 	public void makePayment(double amount) {
-		balance -= amount;
+		if (amount > 0.0) {			
+			balance -= amount;
+		}
 	}
 
 	// Utility method to print a card's information
