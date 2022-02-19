@@ -16,6 +16,8 @@ public class Reinforcement {
 		System.out.println("7. R.1.7 sumSquareUntil");
 		System.out.println("8. R.1.8 countVowel");
 		System.out.println("9. R.1.9 removePunctuation");
+		System.out.println("10. R.1.10 Flower Class");
+		System.out.println("11. R.1.11 Set Limit to CreditCard");
 		System.out.println("==========================");
 	}
 	
@@ -32,7 +34,8 @@ public class Reinforcement {
 	}
 	
 	private static void runMenu(int menu) {
-		Scanner input = new Scanner(System.in).useDelimiter("\n");;
+		Scanner inputMultiple = new Scanner(System.in).useDelimiter("\n");
+		Scanner input = new Scanner(System.in);
 		int numberInput;
 		String strInput;
 		switch (menu) {
@@ -71,13 +74,26 @@ public class Reinforcement {
 			break;
 		case 8:
 			System.out.println("count vowel of text : ");
-			strInput = input.next();
+			strInput = inputMultiple.next();
 			System.out.printf("total vowel of text %s is %d %n", strInput, countVowel(strInput));
 			break;
 		case 9:
 			System.out.println("text : ");
-			strInput = input.next();
+			strInput = inputMultiple.next();
 			System.out.printf("before %s after %s %n", strInput, removePunctuation(strInput));
+			break;
+		case 10:
+			Flower flower = new Flower("sepatu", 10, 10000);
+			System.out.printf(flower.toString());
+			break;
+		case 11:
+			CreditCard cc = new CreditCard("John Wick", "Bukopin", "10001 11101 1010101", 1000, 100.00);
+			System.out.print("Before change limit ");
+			CreditCard.printSummary(cc);
+			System.out.println("change limit to : ");
+			numberInput = input.nextInt();
+			cc.setLimit(numberInput);
+			CreditCard.printSummary(cc);
 			break;
 		default:
 			System.out.println("menu not found");
@@ -198,4 +214,47 @@ public class Reinforcement {
 
 class GameEntry{
 	int score;
+}
+
+class Flower{
+	private String name;
+	private int petals;
+	private float price;
+	
+	public Flower(String name, int petals, float price) {
+		super();
+		this.name = name;
+		this.petals = petals;
+		this.price = price;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getPetals() {
+		return petals;
+	}
+
+	public void setPetals(int petals) {
+		this.petals = petals;
+	}
+
+	public float getPrice() {
+		return price;
+	}
+
+	public void setPrice(float price) {
+		this.price = price;
+	}
+
+	@Override
+	public String toString() {
+		return "Flower [name=" + name + ", petals=" + petals + ", price=" + price + "]";
+	}
+	
 }

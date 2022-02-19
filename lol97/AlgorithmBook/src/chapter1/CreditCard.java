@@ -42,6 +42,10 @@ public class CreditCard {
 		return balance;
 	}
 	
+	public void setLimit(int limit) {
+		this.limit = limit;
+	}
+
 	// Update methods
 	public boolean charge(double price) {
 		if (price + balance > limit) {
