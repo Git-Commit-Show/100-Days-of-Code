@@ -14,6 +14,8 @@ public class Reinforcement {
 		System.out.println("5. R.1.5 sumUntil");
 		System.out.println("6. R.1.6 sumOddUntil");
 		System.out.println("7. R.1.7 sumSquareUntil");
+		System.out.println("8. R.1.8 countVowel");
+		System.out.println("9. R.1.9 removePunctuation");
 		System.out.println("==========================");
 	}
 	
@@ -30,8 +32,9 @@ public class Reinforcement {
 	}
 	
 	private static void runMenu(int menu) {
-		Scanner input = new Scanner(System.in);
+		Scanner input = new Scanner(System.in).useDelimiter("\n");;
 		int numberInput;
+		String strInput;
 		switch (menu) {
 		case 1:
 			inputAllBaseTypes();
@@ -65,6 +68,16 @@ public class Reinforcement {
 			System.out.println("sum odd until : ");
 			numberInput = input.nextInt();
 			System.out.printf("total sum square until %d is %d %n", numberInput, sumSquareUntil(numberInput));
+			break;
+		case 8:
+			System.out.println("count vowel of text : ");
+			strInput = input.next();
+			System.out.printf("total vowel of text %s is %d %n", strInput, countVowel(strInput));
+			break;
+		case 9:
+			System.out.println("text : ");
+			strInput = input.next();
+			System.out.printf("before %s after %s %n", strInput, removePunctuation(strInput));
 			break;
 		default:
 			System.out.println("menu not found");
@@ -156,6 +169,29 @@ public class Reinforcement {
 			sum += i;
 		}
 		return sum;
+	}
+	
+	private static int countVowel(String text) {
+		int sumVowel = 0;
+		String lowerText = text.toLowerCase();
+		for(int i=0; i < text.length(); i++) {
+			char c = lowerText.charAt(i);
+			if (c == 'a' || c == 'i' || c == 'u' || c == 'e' || c == 'o') {
+				sumVowel++;
+			}
+		}
+		return sumVowel;
+	}
+	
+	private static String removePunctuation(String text) {
+		StringBuilder sb = new StringBuilder();
+		for(int i=0; i < text.length(); i++) {
+			char c = text.charAt(i);
+			if (c != '\'') {
+				sb.append(c);
+			}
+		}
+		return sb.toString();
 	}
 
 }
