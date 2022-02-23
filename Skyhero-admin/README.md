@@ -76,3 +76,21 @@
 
 ## Day 21
 - Implemented singly linked list in java.
+
+## Day 22
+- Made an ecryption and decryption application in python using Caeser cipher.
+
+## Day 23
+- Implemented the FLAMES game in python.
+
+## Day 24
+- Practiced many python dictionary programs.
+
+## Day 25
+- Implemented Caeser cipher program using python dictionaries.
+
+## Day 26
+- Made my first program using python pwntools to start learning about networking.
+
+## Day 27
+- Started learning about tool command language and made my first "hello world" program in **tcp program**.
