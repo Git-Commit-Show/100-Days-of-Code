@@ -65,7 +65,7 @@ public class MessageFrame {
 		frame.getContentPane().add(messageField);
 		messageField.setColumns(10);
 		
-		JLabel lblDisplay = new JLabel("");
+		final JLabel lblDisplay = new JLabel("");
 		lblDisplay.setBackground(Color.GRAY);
 		lblDisplay.setBounds(22, 57, 398, 183);
 		frame.getContentPane().add(lblDisplay);
@@ -88,7 +88,7 @@ public class MessageFrame {
 		frame.getContentPane().add(btnGenerate);
 	}
 	
-	public void showWindow(User user) {
+	public void showWindow(final User user) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
