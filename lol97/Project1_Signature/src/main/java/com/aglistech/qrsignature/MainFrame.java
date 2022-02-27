@@ -11,6 +11,7 @@ import com.aglistech.qrsignature.model.User;
 
 import javax.swing.JButton;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 import java.awt.event.ActionListener;
 import java.sql.SQLException;
@@ -60,16 +61,17 @@ public class MainFrame extends JFrame {
 				try {
 					UserDaoImp userDaoImp = new UserDaoImp();
 					int id = Integer.valueOf(userIdTextField.getText().toString());
-					String key = passwordField.getText();
+					String key = String.valueOf(passwordField.getPassword());
 					
 					User user = userDaoImp.getUser(id);
 					if (userDaoImp.checkPassword(user, key)) {						
 						MessageFrame messageFrame = new MessageFrame(user);
 						messageFrame.showWindow(user);
+					} else {
+						JOptionPane.showMessageDialog(contentPane, "whoops userid / passwod was not correct");
 					}
 				} catch (SQLException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
+					System.exit(0);
 				}
 				
 				
