@@ -2,5 +2,7 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/SufyanSaori/Documents/project/100-Days-of-Code/lol97/AlgorithmBook/external_lib/jfreechart_1.0.19/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SufyanSaori/Documents/project/100-Days-of-Code/lol97/AlgorithmBook/external_lib/jfreechart_1.0.19/jfreechart-1.0.19.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
