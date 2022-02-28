@@ -22,6 +22,8 @@ import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.chart.plot.XYPlot;
 import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
 import org.jfree.chart.title.TextTitle;
+import org.jfree.data.category.CategoryDataset;
+import org.jfree.data.category.DefaultCategoryDataset;
 import org.jfree.data.general.DefaultPieDataset;
 import org.jfree.data.general.PieDataset;
 import org.jfree.data.xy.XYDataset;
@@ -70,7 +72,6 @@ public class DokumenCharPlotter {
 		initialize();
 
 		openFileChooser = new JFileChooser();
-		openFileChooser.setCurrentDirectory(new File("C:\\Users\\SufyanSaori\\Documents"));
 		openFileChooser.setFileFilter(new FileNameExtensionFilter("TEXT FILES", "txt", "text"));
 	}
 
@@ -109,6 +110,7 @@ public class DokumenCharPlotter {
 						}
 						in.close();
 						showChart(dataMap, file.getName());
+						showChartBar(dataMap, file.getName());
 					} catch (IOException ex) {
 						// TODO: handle exception
 					}
@@ -201,14 +203,42 @@ public class DokumenCharPlotter {
 
 		return chart;
 	}
-	
+
 	private static void showChart(HashMap<Character, Integer> counterData, String title) {
 		PieDataset dataset = createDataset(counterData);
 		JFreeChart chart = createChart(dataset, title);
 		PiePlot plot = (PiePlot) chart.getPlot();
-		PieSectionLabelGenerator gen = new StandardPieSectionLabelGenerator(
-	            "{0}: {1} ({2})", new DecimalFormat("0"), new DecimalFormat("0%"));
-	        plot.setLabelGenerator(gen);
+		PieSectionLabelGenerator gen = new StandardPieSectionLabelGenerator("{0}: {1} ({2})", new DecimalFormat("0"),
+				new DecimalFormat("0%"));
+		plot.setLabelGenerator(gen);
+		ChartPanel chartPanel = new ChartPanel(chart);
+		chartPanel.setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));
+		chartPanel.setBackground(Color.white);
+		ChartFrame chartFrame = new ChartFrame(title + "_CHART", chart);
+		chartFrame.setVisible(true);
+		chartFrame.setSize(300, 400);
+
+	}
+
+	private static CategoryDataset createDatasetBar(HashMap<Character, Integer> counterData) {
+		DefaultCategoryDataset dataset = new DefaultCategoryDataset();
+		counterData.forEach((key, value) -> dataset.setValue(value, key, "CHAR"));
+		return dataset;
+	}
+	
+	private static JFreeChart createChartBar(CategoryDataset dataset, String title) {
+		JFreeChart chart = ChartFactory.createBarChart(title, "char", "total", dataset, PlotOrientation.VERTICAL, true, true, false);
+
+		return chart;
+	}
+	
+	private static void showChartBar(HashMap<Character, Integer> counterData, String title) {
+		CategoryDataset dataset = createDatasetBar(counterData);
+		JFreeChart chart = createChartBar(dataset, title);
+//		PiePlot plot = (PiePlot) chart.getPlot();
+//		PieSectionLabelGenerator gen = new StandardPieSectionLabelGenerator("{0}: {1} ({2})", new DecimalFormat("0"),
+//				new DecimalFormat("0%"));
+//		plot.setLabelGenerator(gen);
 		ChartPanel chartPanel = new ChartPanel(chart);
 		chartPanel.setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));
 		chartPanel.setBackground(Color.white);
