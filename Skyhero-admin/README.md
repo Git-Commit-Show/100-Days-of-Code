@@ -94,3 +94,6 @@
 
 ## Day 27
 - Started learning about tool command language and made my first "hello world" program in **tcp program**.
+
+## Day 28
+- Made a **snake and ladders** game in python.
