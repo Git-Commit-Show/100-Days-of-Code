@@ -19,3 +19,9 @@ let Func = (a, b = 10) => {
 }
 console.log(Func(20)); // 20 + 10 = 30
 console.log(Func(20, 50)); // 20 + 50 = 70
+
+let NotWorkingFunction = (a = 10, b) => {
+    return a + b;
+}
+console.log(NotWorkingFunction(20)); // NAN. Not gonna work.
+console.log(NotWorkingFunction(20, 30)); // 50;)
