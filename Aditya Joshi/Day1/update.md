@@ -1,0 +1,2 @@
+ - Today I learned about some fundamental concepts of Object oreiented Programming in Java
+-Couldn't code much as I studied just theory part and I beleive tomorrow will be similar. I will start solving som eLeetcode quesiton from day after tomorrow!
