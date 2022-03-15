@@ -77,7 +77,7 @@ Thanks a lot for spending your time helping our project grow. Keep rocking :tada
 
 6\. Is there a community that can help me motivate and where I can learn from ?
 
-- Yes, there is! 😃 You can share your progess with the community on Discord at <https://discord.gg/dZAHa3RA>
+- Yes, there is! 😃 You can share your progess with the community on Discord at <https://discord.gg/2m2Hn9fMTg>
 
 7\. What all things can I put in the Pull Request? And is there a course/program which you are following?
 
