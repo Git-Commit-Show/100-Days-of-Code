@@ -15,7 +15,7 @@
 
 <H3 align="center">Objective</H3>
 
-To help people get started with coding as a daily habit. Aim is to stay consistent with No-Zero-Days and work towards our goals, one small effort at a time! Join our [Discord Server](https://discord.gg/JFWP8c2gPG) for more information, getting awesome resources, better productivity and motivation.
+To help people get started with coding as a daily habit. Aim is to stay consistent with No-Zero-Days and work towards our goals, one small effort at a time! Join our [Discord Server](https://discord.gg/2m2Hn9fMTg) for more information, getting awesome resources, better productivity and motivation.
 
 ---
 
