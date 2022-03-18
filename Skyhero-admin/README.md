@@ -102,4 +102,13 @@
 - Made multiple file handling programs in python.
 
 ## Day 30
-- 
+- Made multiple Tuple, list and dictionary programs in python.
+
+## Day 31
+- Made some programs in python using sockets.
+
+## Day 32
+- Tried making a handwritten to editable text program in python using cv2 and tesseractOCR. Will share the repo link soon when I make the repo public :)
+
+## Day 33
+- Made a webscraper using beautiful soup in python to scrape youtube videos :). [another-yt-cli](https://github.com/Skyhero-admin/another-yt-cli)
