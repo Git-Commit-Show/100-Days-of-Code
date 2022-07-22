@@ -3,8 +3,8 @@
 ## Integers
 
 1. [FizzBuzz LC-412](https://leetcode.com/problems/fizz-buzz/)
-2. [SingleNumber LC-136]()
-3. [ReverseInteger LC-7]()
+2. [SingleNumber LC-136](https://leetcode.com/problems/single-number/)
+3. [ReverseInteger LC-7](https://leetcode.com/problems/reverse-integer/)
 4. [Palindrome Number LC-9]()
 5. [Factorial Trailing Zeroes LC-172]()
 6. [Pow(x, n) LC-50]()
