@@ -33,6 +33,31 @@
 
 ## Arrays
 
+1. [Best time to buy and sell stock LC-121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
+2. [Move Zeroes LC-283](https://leetcode.com/problems/move-zeroes)
+3. [Two Sum LC-1](https://leetcode.com/problems/two-sum)
+4. [Contains Duplicate LC-217](https://leetcode.com/problems/contains-duplicate)
+5. [Length of Last Word LC-58](https://leetcode.com/problems/length-of-last-word))
+6. [Can Place Flowers LC-605](https://leetcode.com/problems/can-place-flowers)
+7. [Best time to buy and sell stock II LC-122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)
+8. [Merge sorted array LC-80](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)
+9. [Rotate Array LC-189](https://leetcode.com/problems/rotate-array)
+10. [Jump Game LC-55](https://leetcode.com/problems/jump-game)
+11. [Sort Colors LC-75](https://leetcode.com/problems/sort-colors)
+12. [Plus One LC-66](https://leetcode.com/problems/plus-one)
+13. [Product of Array Except Self LC-238](https://leetcode.com/problems/product-of-array-except-self)
+14. [Sequential Digits LC-1291](https://leetcode.com/problems/sequential-digits)
+15. [Find all Disappeared numbers in an array LC-448](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array)
+16. []()
+17. []()
+18. []()
+19. []()
+20. []()
+21. []()
+22. []()
+23. []()
+24. []()
+
 ## Two Pointers
 
 ## Famous Algorithms
