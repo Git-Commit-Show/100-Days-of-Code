@@ -48,16 +48,23 @@
 13. [Product of Array Except Self LC-238](https://leetcode.com/problems/product-of-array-except-self)
 14. [Sequential Digits LC-1291](https://leetcode.com/problems/sequential-digits)
 15. [Find all Disappeared numbers in an array LC-448](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array)
-16. []()
-17. []()
-18. []()
-19. []()
-20. []()
-21. []()
-22. []()
-23. []()
-24. []()
+16. [Find all duplicates numbers in an array LC-442]()
+17. [First missing positive LC-41]()
+18. [Degree of an Array LC-697]()
+19. [K-Diff pairs in an Array LC-532]()
+20. [SubArray product Less than K LC-713]()
+21. [Minimum Domino Rotations For Equal Row LC-1007]()
+22. [Jump Game 3 LC-1306]()
+23. [123 Pattern LC-456]()
+24. [Sliding Window Maximum LC-239]()
 
 ## Two Pointers
+
+1. []()
+2. []()
+3. []()
+4. []()
+5. []()
+6. []()
 
 ## Famous Algorithms
