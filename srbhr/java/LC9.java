@@ -1,4 +1,4 @@
-public class PalindromeNumber {
+public class LC9 {
     public boolean isPalindrome(int x) {
         int original = x;
         int rem;

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class FizzBuzz {
+public class LC412 {
     public List<String> fizzBuzz(int n) {
         List<String> answer = new ArrayList<String>();
         for (int i = 1; i <= n; i++) {

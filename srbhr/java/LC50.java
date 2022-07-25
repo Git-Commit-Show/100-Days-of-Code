@@ -1,4 +1,4 @@
-public class PowerXN {
+public class LC50 {
     public double myPow(double x, int n) {
 
         double output;
