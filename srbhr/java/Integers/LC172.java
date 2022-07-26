@@ -1,4 +1,4 @@
-public class FactorTrailingZeros {
+public class LC172 {
     public int trailingZeroes(int n) {
         int zeros = 0;
         int power = 5;

@@ -1,4 +1,4 @@
-public class ReverseNumber {
+public class LC7 {
     public int reverse(int x) {
         long reverse = 0;
         int r;
