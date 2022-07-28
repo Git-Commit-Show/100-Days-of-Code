@@ -60,18 +60,65 @@
 
 ## Two Pointers
 
-1. []()
-2. []()
-3. []()
-4. []()
-5. []()
-6. []()
+1. [Is Subsequence LC-392](https://leetcode.com/problems/is-subsequence)
+2. [Valid Palindrome LC-125](https://leetcode.com/problems/valid-palindrome)
+3. [Squares of Sorted Array LC-977](https://leetcode.com/problems/squares-of-a-sorted-array)
+4. [Remove duplicates from Sorted Array LC-26](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
+5. [Trapping Rain Water LC-26](https://leetcode.com/problems/trapping-rain-water)
+6. [3 Sum LC-15](https://leetcode.com/problems/3sum)
 
 ## Famous Algorithms
 
-1. []()
-2. []()
-3. []()
-4. []()
-5. []()
+1. [Kadane's Algorithm Maximum Sum SubArray LC-53](https://leetcode.com/problems/maximum-subarray)
+2. [Boyer Moore Voting Algorithm Majority Element LC-169](https://leetcode.com/problems/majority-element)
+
+## Sorting Algorithm
+
+1. [Merge Sort _Sort an array_ LC-912](https://leetcode.com/problems/sort-an-array)
+2. [Quick Sort _Sort an array_ LC-912](https://leetcode.com/problems/sort-an-array)
+
+## 2D Arrays/Matrix
+
+1. [Range Sum Query 2D - Immutable LC-304](https://leetcode.com/problems/range-sum-query-2d-immutable)
+2. [Search a 2D Matrix LC-74](https://leetcode.com/problems/search-a-2d-matrix)
+3. [Spiral Matrix LC-54](https://leetcode.com/problems/spiral-matrix)
+4. [Rotate Image LC-48](https://leetcode.com/problems/rotate-image)
+5. [Matrix Diagonal Sum LC-1572](https://leetcode.com/problems/matrix-diagonal-sum)
+6. [Set Matrix Zero LC-73](https://leetcode.com/problems/set-matrix-zeroes)
+7. [Merge Intervals LC-56](https://leetcode.com/problems/merge-intervals)
+
+## LinkedList
+
+1. [Flatten Binary Tree to Linked List LC-114]()
+2. [Add two numbers 2 LC-445]()
+3. [Odd Even Linked List LC-328]()
+4. [Rotate List LC-328]()
+5. [Swap Nodes in Pairs LC-24]()
+6. [Middle of a Linked List LC-876]()
+7. [Linked List Cycle II LC-142]()
+8. [Linked List Cycle LC-141]()
+9. [Reverse Linked List LC-206]()
+10. [Merge Two Sorted Lists LC-21]()
+11. [Intersection of Two Linked List LC-160]()
+12. [Palindrome Linked List LC-234]()
+13. [Reverse Nodes in K-group LC-25]()
+14. [LRU Cache LC-146]()
+15. [Design Linked List LC-707]()
+
+## Tree, Stack, Queue
+
+1. [Tree Traversal In Detail]()
+2. [Binary Tree Pre-order Traversal _Recursive and Iterative_ LC-144]()
+3. [Binary Tree In-order Traversal _Recursive and Iterative_ LC-94]()
+4. [Binary Tree Post-order Traversal _Recursive and Iterative_ LC-94]()
+5. [Binary Tree Level-order Traversal _Recursive and Iterative_ LC-94]()
 6. []()
+7. []()
+8. []()
+9. []()
+10. []()
+11. []()
+12. []()
+13. []()
+14. []()
+15. []()
