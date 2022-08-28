@@ -131,6 +131,13 @@
 
 ## Trie & Heap
 
+1. [Implement Trie LC-208]()
+2. [Prefix and Suffix Search LC-745]()
+
 ## Graph
+
+1. [Number of Islands LC-200]()
+2. [Clone a Graph LC-133]()
+3. [Pacific Atlantic Water Flow LC-417]()
 
 ## Dynamic Programming
