@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reginas Website</title>
+</head>
+<body>
+    <div>
+        <h1>Lovly Fruits</h1>
+        <p>What is your favorite fruit?</p>
+        <img src="https://www.astroupay.com/wp-content/uploads/2014/06/fruits-astro-1024x640.jpg" width="25%">
+    </div>
+    
+    <div>
+        <ul>
+        <ul>
+            <li>Mango</li>
+            <li>Maracuja</li>
+        </ul>
+        <ul>
+            <li>Peach</li>
+            <li>Banana</li>
+            <li>Strawberry</li>
+        </ul>
+        </ul>
+
+        <h3>Show it us!</h3>
+        <a href="register.html">Go</a>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <a href="index.html">Back to Home</a>
+
+        <form>
+            First name <input type="text"><br>
+            Last name <input type="text"><br>
+            Email <input type="email" required><br>
+            Password <input type="password" min="8"><br>
+            Birthday <input type="date"><br>
+            Gender: <br>
+            <input type="radio" name="Gender">Male<br>
+            <input type="radio" name="Gender">Female<br>
+            <input type="radio" name="Gender">Other<br>
+            
+            
+            <p>Do you have pets?</p>
+
+            <input type="checkbox">Dog<br>
+            <input type="checkbox">Cat<br>
+            <input type="checkbox">Birds<br>
+
+            <p>Do you have a own car?</p>
+            <input type="radio" name="car?">No<br>
+            <input type="radio" name="car?">Yes<br>
+
+        <select>
+            <p>If so, which?</p>
+            <option value="Volvo">Volvo</option>
+            <option value="Benz">Benz</option>
+            <option value="Audi">Audi</option>
+            <option value="BMW">BMW</option>
+        </select>
+
+        <input type="submit" value="Join US!">Join Us! 
+        <input type="reset" value="Reset">Reset
+
+        </form>
+    </div>
+</body>
+</html>
