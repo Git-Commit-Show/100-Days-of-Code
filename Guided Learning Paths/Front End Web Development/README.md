@@ -14,8 +14,10 @@ Videos
 | [FreeCodeCamp](https://www.youtube.com/watch?v=a_iQb1lnAEQ) | English | HTML & CSS |
 | [Traversy Media](https://www.youtube.com/watch?v=hdI2bqOjy3c&list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX) | English | JavaScript |
 | [FreeCodeCamp](https://www.youtube.com/watch?v=bMknfKXIFA8) | English | React |
+| [Learn Code Academy](https://www.youtube.com/playlist?list=PLoYCgNOIyGABDU532eesybur5HPBVfC1G) | English | HTML & CSS |
 
 Documentation
 - [MDN Web Docs](https://developer.mozilla.org)
 - [W3Schools](https://www.w3schools.com)
 - [The Odin Project](https://www.theodinproject.com)
+- [Geeks For Geeks](https://www.geeksforgeeks.org/can-start-learn-web-development/)
